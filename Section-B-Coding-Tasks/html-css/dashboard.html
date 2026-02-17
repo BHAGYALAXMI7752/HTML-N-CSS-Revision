@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Top Navigation -->
+    <div class="top-nav">
+      <div class="logo">Apna Busket</div>
+      <div class="search-bar">
+        <input type="search" placeholder="Search products...">
+        <button class="btn"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="user-profile">
+        <span>User123</span>
+        <div class="avatar"><i class="fa fa-user" aria-hidden="true"></i></div>
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li class="active"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></li>
+        <li><i class="fas fa-box"></i> <span>Products</span></li>
+        <li><i class="fas fa-shopping-cart"></i> <span>Orders</span></li>
+        <li><i class="fas fa-chart-line"></i> <span>Analytics</span></li>
+        <li><i class="fas fa-cog"></i> <span>Settings</span></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Products</h2>
+      <div class="product-grid">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <img class="product-image" src="https://picsum.photos/id/1/300/200" alt="Product">
+          <div class="product-info">
+            <div class="product-name">Wireless Headphones</div>
+            <div class="product-price">$79.99</div>
+            <div class="stock-status in-stock">In Stock</div>
+          </div>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="product-card">
+          <img class="product-image" src="https://picsum.photos/id/2/300/200" alt="Product">
+          <div class="product-info">
+            <div class="product-name">Smart Watch</div>
+            <div class="product-price">$199.99</div>
+            <div class="stock-status low-stock">Low Stock</div>
+          </div>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="product-card">
+          <img class="product-image" src="https://picsum.photos/id/3/300/200" alt="Product">
+          <div class="product-info">
+            <div class="product-name">Bluetooth Speaker</div>
+            <div class="product-price">$49.99</div>
+            <div class="stock-status in-stock">In Stock</div>
+          </div>
+        </div>
+        <!-- Product Card 4 -->
+        <div class="product-card">
+          <img class="product-image" src="https://picsum.photos/id/4/300/200" alt="Product">
+          <div class="product-info">
+            <div class="product-name">Gaming Mouse</div>
+            <div class="product-price">$39.99</div>
+            <div class="stock-status out-of-stock">Out of Stock</div>
+          </div>
+        </div>
+        <!-- Product Card 5 -->
+        <div class="product-card">
+          <img class="product-image" src="https://picsum.photos/id/5/300/200" alt="Product">
+          <div class="product-info">
+            <div class="product-name">Mechanical Keyboard</div>
+            <div class="product-price">$89.99</div>
+            <div class="stock-status in-stock">In Stock</div>
+          </div>
+        </div>
+        <!-- Product Card 6 -->
+        <div class="product-card">
+          <img class="product-image" src="https://picsum.photos/id/6/300/200" alt="Product">
+          <div class="product-info">
+            <div class="product-name">4K Monitor</div>
+            <div class="product-price">$329.99</div>
+            <div class="stock-status low-stock">Low Stock</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
